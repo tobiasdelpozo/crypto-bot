@@ -88,9 +88,7 @@ def backtesting(test, start_balance, start_eth):
     print("Starting Balance: " + str(start_balance))
     print("Ending Balance: " + str(eth * cashout_price))
     print("Transactions Made: " + str(transcations))
-
-
-# Comment out "download_data"
+    
 
 if __name__ == '__main__':
     # Get hourly data for last 4 years. Uncomment if data not already downloaded.
